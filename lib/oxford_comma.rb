@@ -21,6 +21,7 @@ def oxford_comma(array)
   while counter < array_length - 1 
    newString += array[counter] + ", "
    counter += 1 
+  binding.pry 
   end
   newString << "and " + array[array_length - 1] 
   
